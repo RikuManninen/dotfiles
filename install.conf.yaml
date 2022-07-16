@@ -4,6 +4,8 @@
 
 - clean: ['~']
 
+- link:
+    ~/.zshrc:
 #- create:
 #    - ~/downloads
 #    - ~/.vim/undo-history
