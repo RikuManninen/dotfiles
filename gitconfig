@@ -1,0 +1,16 @@
+[user]
+	name = Riku Manninen
+	email = 38488460+RikuManninen@users.noreply.github.com
+	signingkey = 4B80539263A10119
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[commit]
+	gpdsign = true
+	gpgsign = true
+[gpg]
+	program = /usr/local/bin/gpg
+[pgp]
+	program = gpg1
