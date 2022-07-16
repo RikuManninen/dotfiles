@@ -32,6 +32,8 @@ brew "krb5"
 brew "libpng"
 # Next-gen compiler infrastructure
 brew "llvm"
+# Mac App Store command-line interface
+brew "mas"
 # Open source relational database management system
 brew "mysql", restart_service: true
 # Fast, highly customisable system info script
