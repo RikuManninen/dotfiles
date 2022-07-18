@@ -12,6 +12,7 @@ alias ls='exa -laF --git'
 alias bbd='brew bundle dump --force --describe'
 alias trail='<<<${(F)path}'
 alias man=batman
+alias brew='env PATH="${PATH//$(pyenv root)\/shims:/}" brew'
 
 # Customize Prompt(s)
 PROMPT='
@@ -20,8 +21,12 @@ PROMPT='
 # Add Locations to $PATH Variable
 # Add Visual Studio Code (code)
 export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
-
-export PATH="$PATH:$N_PREFIX/bin"
+# add .n
+export PATH="$N_PREFIX/bin:$PATH"
+# pyenv configuration
+export PYENV_ROOT="$HOME/.pyenv"
+command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
 
 # Write Handy Functions
 function mkcd() {
