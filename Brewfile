@@ -1,3 +1,4 @@
+tap "eth-p/software"
 tap "heroku/brew"
 tap "homebrew/bundle"
 tap "homebrew/cask"
@@ -58,6 +59,8 @@ brew "wget"
 brew "zlib"
 # UNIX shell (command interpreter)
 brew "zsh"
+# Bash scripts that integrate bat with various command-line tools
+brew "eth-p/software/bat-extras"
 # Everything you need to get started with Heroku
 brew "heroku/brew/heroku"
 # Sound and music editor
