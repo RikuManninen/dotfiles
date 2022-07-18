@@ -41,8 +41,6 @@ brew "mysql", restart_service: true
 brew "n"
 # Fast, highly customisable system info script
 brew "neofetch"
-# Platform built on V8 to build network applications
-brew "node"
 # Pinentry for GPG on Mac
 brew "pinentry-mac"
 # Object-relational database system
