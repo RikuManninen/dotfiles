@@ -45,8 +45,8 @@ brew "neofetch"
 brew "pinentry-mac"
 # Object-relational database system
 brew "postgresql", restart_service: true
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.9"
+# Python version management
+brew "pyenv"
 # Low-level access to audio, keyboard, mouse, joystick, and graphics
 brew "sdl2"
 # Display directories as trees (with optional color/HTML output)
