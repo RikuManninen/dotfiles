@@ -36,6 +36,8 @@ brew "llvm"
 brew "mas"
 # Open source relational database management system
 brew "mysql", restart_service: true
+# Node version management
+brew "n"
 # Fast, highly customisable system info script
 brew "neofetch"
 # Platform built on V8 to build network applications
