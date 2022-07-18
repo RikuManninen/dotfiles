@@ -11,3 +11,9 @@ else
   echo "Installing Node & NPM with n..."
   n latest
 fi
+
+# install global packages
+npm install --global yarn
+
+echo "Global NPM Packages Installed:"
+npm list --global --depth=0
