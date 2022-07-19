@@ -13,6 +13,8 @@ brew "bchunk"
 brew "ca-certificates"
 # Modern replacement for 'ls'
 brew "exa"
+# Library for manipulating PNG images
+brew "libpng"
 # GitHub command-line tool
 brew "gh"
 # Validating, recursive, caching DNS resolver
@@ -29,8 +31,6 @@ brew "httpie"
 brew "jq"
 # Network authentication protocol
 brew "krb5"
-# Library for manipulating PNG images
-brew "libpng"
 # Next-gen compiler infrastructure
 brew "llvm"
 # Mac App Store command-line interface
@@ -69,8 +69,8 @@ cask "alfred"
 cask "discord"
 # Audio converter and CD ripper
 cask "freac"
-# Git client focusing on productivity
-cask "gitkraken"
+# Desktop client for GitHub repositories
+cask "github"
 # Web browser
 cask "google-chrome"
 # Terminal emulator as alternative to Apple's Terminal app
