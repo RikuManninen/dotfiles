@@ -124,3 +124,4 @@ cask "visual-studio-code"
 # Multimedia player
 cask "vlc"
 cask "webpquicklook"
+mas "Spike", id: 707452888
