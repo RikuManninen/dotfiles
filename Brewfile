@@ -3,8 +3,11 @@ tap "heroku/brew"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-drivers"
+tap "homebrew/cask-fonts"
 tap "homebrew/core"
 tap "homebrew/services"
+# Shell plugin manager
+brew "antibody"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
 # Convert CD images from .bin/.cue to .iso/.cdr
@@ -67,6 +70,7 @@ cask "ableton-live-suite"
 cask "alfred"
 # Voice and text chat software
 cask "discord"
+cask "font-fira-code"
 # Audio converter and CD ripper
 cask "freac"
 # Desktop client for GitHub repositories
@@ -124,4 +128,6 @@ cask "visual-studio-code"
 # Multimedia player
 cask "vlc"
 cask "webpquicklook"
+# Desktop client for WhatsApp
+cask "whatsapp"
 mas "Spike", id: 707452888
