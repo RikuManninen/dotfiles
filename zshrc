@@ -35,6 +35,10 @@ function mkcd() {
   mkdir -p "$@" && cd "$_";
 }
 
+function update-mac() {
+  brew update && brew upgrade
+}
+
 # Use ZSH Plugins
 source <(antibody init)
 antibody bundle < "$DOTFILES/antibody_plugins"
