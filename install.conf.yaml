@@ -23,3 +23,6 @@
     - command: ./setup_python.zsh
       stdout: true
       stderr: true
+    - command: ./setup_vscode.zsh
+      stdout: true
+      stderr: true
