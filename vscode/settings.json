@@ -1,0 +1,13 @@
+{
+    "editor.largeFileOptimizations": false,
+    "editor.tabSize": 2,
+    "window.zoomLevel": 1,
+    "editor.renderWhitespace": "all",
+    "workbench.startupEditor": "none",
+    "git.confirmSync": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "vscode-exports-autocomplete.enable" : true,
+    "workbench.settings.editor": "json"
+}

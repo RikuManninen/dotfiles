@@ -8,6 +8,7 @@
     ~/.zshrc:
     ~/.zshenv:
     ~/.gitconfig:
+    ~/Library/Application Support/Code/User/settings.json: vscode/settings.json
 
 - shell:
     - command: ./setup_homebrew.zsh
