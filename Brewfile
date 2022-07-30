@@ -30,6 +30,8 @@ brew "gnupg"
 brew "gnupg@1.4"
 # User-friendly cURL replacement (command-line HTTP client)
 brew "httpie"
+# CLI for ImageOptim, ImageAlpha and JPEGmini
+brew "imageoptim-cli"
 # Lightweight and flexible command-line JSON processor
 brew "jq"
 # Network authentication protocol
@@ -39,7 +41,7 @@ brew "llvm"
 # Mac App Store command-line interface
 brew "mas"
 # Open source relational database management system
-brew "mysql", restart_service: true
+brew "mysql"
 # Node version management
 brew "n"
 # Fast, highly customisable system info script
@@ -77,6 +79,10 @@ cask "freac"
 cask "github"
 # Web browser
 cask "google-chrome"
+# Utility to reduce the size of 24-bit PNG files
+cask "imagealpha"
+# Tool to optimize images to a smaller size
+cask "imageoptim"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
 # File archiver
@@ -121,6 +127,8 @@ cask "quicklook-json"
 cask "quicklookase"
 # Music streaming service
 cask "spotify"
+# Messaging app with a focus on speed and security
+cask "telegram"
 # Unpacks archive files
 cask "the-unarchiver"
 # Open-source code editor
