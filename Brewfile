@@ -16,8 +16,6 @@ brew "bchunk"
 brew "ca-certificates"
 # Modern replacement for 'ls'
 brew "exa"
-# Library for manipulating PNG images
-brew "libpng"
 # GitHub command-line tool
 brew "gh"
 # Validating, recursive, caching DNS resolver
@@ -36,10 +34,14 @@ brew "imageoptim-cli"
 brew "jq"
 # Network authentication protocol
 brew "krb5"
+# Library for manipulating PNG images
+brew "libpng"
 # Next-gen compiler infrastructure
 brew "llvm"
 # Mac App Store command-line interface
 brew "mas"
+# General-purpose lossless data-compression library
+brew "zlib"
 # Open source relational database management system
 brew "mysql"
 # Node version management
@@ -58,8 +60,6 @@ brew "sdl2"
 brew "tree"
 # Internet file retriever
 brew "wget"
-# General-purpose lossless data-compression library
-brew "zlib"
 # UNIX shell (command interpreter)
 brew "zsh"
 # Bash scripts that integrate bat with various command-line tools
@@ -138,4 +138,5 @@ cask "vlc"
 cask "webpquicklook"
 # Desktop client for WhatsApp
 cask "whatsapp"
+mas "BetterSnapTool", id: 417375580
 mas "Spike", id: 707452888
