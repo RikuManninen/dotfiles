@@ -15,6 +15,7 @@ alias bbd='brew bundle dump --force --describe'
 alias trail='<<<${(F)path}'
 alias man=batman
 alias brew='env PATH="${PATH//$(pyenv root)\/shims:/}" brew'
+alias reload!='. ~/.zshrc'
 
 # Customize Prompt(s)
 PROMPT='
