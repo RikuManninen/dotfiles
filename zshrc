@@ -42,6 +42,14 @@ function update-mac() {
   brew update && brew upgrade
 }
 
+# Install all .pkg files from the current folder to /Applications 
+# (or whatever target folder is configured in the package):
+function install-pkgs() {
+  for f in *.pkg; do
+    sudo installer -verbose -pkg "$f" -target /
+  done
+}
+
 # Use ZSH Plugins
 source <(antibody init)
 antibody bundle < "$DOTFILES/antibody_plugins"
