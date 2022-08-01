@@ -16,6 +16,8 @@ alias trail='<<<${(F)path}'
 alias man=batman
 alias brew='env PATH="${PATH//$(pyenv root)\/shims:/}" brew'
 alias reload!='. ~/.zshrc'
+alias up="cd ../"
+
 
 # Customize Prompt(s)
 PROMPT='
