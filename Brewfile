@@ -8,6 +8,8 @@ tap "homebrew/core"
 tap "homebrew/services"
 # Shell plugin manager
 brew "antibody"
+# Library for manipulating PNG images
+brew "libpng"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
 # Convert CD images from .bin/.cue to .iso/.cdr
@@ -16,12 +18,16 @@ brew "bchunk"
 brew "ca-certificates"
 # Modern replacement for 'ls'
 brew "exa"
-# GitHub command-line tool
-brew "gh"
 # Validating, recursive, caching DNS resolver
 brew "unbound"
 # GNU Transport Layer Security (TLS) Library
 brew "gnutls"
+# Low-level access to audio, keyboard, mouse, joystick, and graphics
+brew "sdl2"
+# Play, record, convert, and stream audio and video
+brew "ffmpeg"
+# GitHub command-line tool
+brew "gh"
 # GNU Pretty Good Privacy (PGP) package
 brew "gnupg"
 # GNU Pretty Good Privacy (PGP) package
@@ -34,8 +40,6 @@ brew "imageoptim-cli"
 brew "jq"
 # Network authentication protocol
 brew "krb5"
-# Library for manipulating PNG images
-brew "libpng"
 # Next-gen compiler infrastructure
 brew "llvm"
 # Mac App Store command-line interface
@@ -48,14 +52,14 @@ brew "mysql"
 brew "n"
 # Fast, highly customisable system info script
 brew "neofetch"
+# Parallel bzip2
+brew "pbzip2"
 # Pinentry for GPG on Mac
 brew "pinentry-mac"
 # Object-relational database system
 brew "postgresql", restart_service: true
 # Python version management
 brew "pyenv"
-# Low-level access to audio, keyboard, mouse, joystick, and graphics
-brew "sdl2"
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
 # Internet file retriever
@@ -121,7 +125,9 @@ cask "qlmarkdown"
 cask "qlprettypatch"
 cask "qlstephen"
 cask "qlvideo"
+# QuickLook plugin for CSV files
 cask "quicklook-csv"
+# QuickLook plugin for JSON files
 cask "quicklook-json"
 # QuickLook generator for Adobe Swatch Exchange files
 cask "quicklookase"
