@@ -6,6 +6,7 @@ export N_PREFIX="$HOME/.n"
 export PREFIX="$N_PREFIX"
 export DOTFILES="$HOME/.dotfiles"
 export HOMEBREW_BUNDLE_FILE="$DOTFILES/Brewfile"
+export PYENV_VERSION='3.10.6'
 # Change ZSH Options
 
 # Create Aliases
